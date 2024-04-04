@@ -7,7 +7,7 @@ body {
     font-family: "Inter";
     font-weight: 500;
     background-color: #f5f5f5;
-    padding: 40px 20px;
+    padding: 20px 20px;
   }
   .card1{
     width: calc(33.33% - 20px);
@@ -84,4 +84,54 @@ body {
   width:100%;
   max-width: 1170px;
   margin: 0 auto;
+}
+#cornerImage {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 300px;
+  /* Đặt chiều rộng của ảnh */
+  height: 100px;
+  /* Đặt chiều cao của ảnh */
+  z-index: 9999;
+  /* Đảm bảo ảnh hiển thị trên cùng */
+}
+#social-icons {
+position: fixed;
+top: 300px;
+right: 15px;
+z-index: 9999;
+}
+#social-icons2 {
+position: fixed;
+top: 345px;
+right: 15px;
+z-index: 9999;
+}
+
+#scroll-to-top {
+position: fixed;
+top: 390px;
+right: 15px;
+z-index: 9999;
+background-color: #007bff;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+}
+.cornerImage{
+  position: relative;
+  margin-bottom: 20px;
+  width: 300px;
+}
+.name{
+  position: fixed;
+        bottom: 0;
+        right: 0;
+        background: linear-gradient(to left, #33d7a0 0%, #0D4DFF 100%); 
+        background-clip: text;
+        color: transparent;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
 }
